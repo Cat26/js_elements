@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Gamja+Flower');
+@import url('https://fonts.googleapis.com/css?family=Cabin');
+
+.container-fluid{
+    /*font-family: 'Gamja Flower', cursive;*/
+    font-family: 'Cabin', sans-serif;
+}
+.menu_bar_2{
+    color: black;
+    background-color: #ffcca0;
+    margin-top: 70px;
+    height: 80px;
+}
+
+.menu_bar_1, .menu_bar_3{
+    color: black;
+    background-color: black;
+    margin-top: 70px;
+    height: 80px;
+}
+
+.dropdown{
+    float: left;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn{
+    font-size: 30px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: black;
+
+}
+
+.dropdown:hover .dropbtn{
+
+}
+
+.dropdown-content{
+    display: none;
+    background-color: white;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a{
+    display: block;
+    text-align: left;
+    color: black;
+    font-size: 25px;
+    padding: 10px;
+
+}
+
+.dropdown-content a:hover{
+    text-decoration: none;
+    color: #ffcca0;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+img{
+    width: 20%;
+    position: relative;
+    margin-top: -4%;
+    float: right;
+}
+
+#cart, #chat{
+    margin-top: 100%;
+    color: black;
+    background: #751f26;
+    width: 50%;
+    float: right;
+    border-radius: 20px 0px 0px 20px;
+    text-transform: uppercase;
+
+}
+
+#chat{
+    position: fixed;
+    bottom: 0;
+}
+
+#cart h1, #chat h1{
+    font-size: 30px;
+    padding: 5px;
+    border: none;
+}
+
+#cart ul, #chat ul{
+    background: white;
+    /*border: solid black 1px;*/
+    display: none;
+
+}
+
+/*#cart ul{*/
+    /*!*overflow: scroll;*!*/
+    /*height: 50px;*/
+    /*!*overflow-x: hidden;*!*/
+/*}*/
+
+.products{
+    margin-top: 10%;
+}

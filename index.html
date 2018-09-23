@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PetShop</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row menu">
+            <div class="col-sm-2 col-lg-2 col-md-2 menu_bar_1">
+                <div class="dropdown">
+                    <button class="dropbtn">MENU
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="">PRODUCTS</a>
+                        <a href="">PROMOTIONS</a>
+                        <a href="">CONTACT</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-10 col-lg-10 col-md-10 menu_bar_2">
+                <img src="./path16.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-2"></div>
+            <div class="col-sm-7 col-lg-8">
+                <div class="products">
+                    <h1>Our Products</h1>
+                    <ul>
+                        <li><img src="images.jpg"></li>
+                        <li><img src="images1.jpg"></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-3 col-lg-2">
+                  <div id="cart">
+                      <h1>🏬 cart</h1>
+
+                      <div id="cart_content">
+                          <button class="cart_btn" type="submit" onclick="add_item()">+ add</button>
+                          <ul>
+                              <li>you have no items in your cart</li>
+                          </ul>
+                      </div>
+                  </div>
+            </div>
+            <div class="col-sm-3 offset-sm-9 col-lg-2 offset-lg-10">
+                <div id="chat">
+                    <h1>chat</h1>
+                    <ul>
+                        <li><button onclick="add_message()" type="submit">+ add item</button></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
